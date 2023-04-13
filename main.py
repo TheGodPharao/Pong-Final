@@ -36,8 +36,9 @@ while game_is_on:
     if ball.xcor() > 380:
         ball.reset_position()
 
-    # Detect Rt Paddle misses
-    if ball.xcor() < -380:
+    # Detect Lt Paddle misses
+    if ball.xcor() < - 380:
         ball.reset_position()
+
 
 screen.exitonclick()
