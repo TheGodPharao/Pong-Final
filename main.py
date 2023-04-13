@@ -21,7 +21,7 @@ screen.onkeypress(l_paddle.go_down, "s")
 
 game_is_on = True
 while game_is_on:
-    time.sleep(0.1)
+    time.sleep(0.05)
     screen.update()
     ball.move()
     # detect collision with top and bottom walls
